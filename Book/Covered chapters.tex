@@ -1,0 +1,37 @@
+\documentclass{book}
+
+
+
+\input{../MyTools.tex}
+\input{Modifcation for books.tex}
+
+
+\geometry{
+ a4paper,
+ total={170mm,250mm},
+ left=20mm,
+ top=30mm,
+ %bottom=10mm,
+}
+
+\begin{document}
+  \input{frontpage}
+  \chapterimage{head1.png}
+  \setcounter{page}{0}
+  \tableofcontents
+  \newpage
+  % this page is empty because Chapter start with odd page
+  % it's recommended to put the abstract here
+  \chapterimage{head2.png}
+  \chapter{First Chapter}
+  \section{section}
+  \subsection{subsection}
+  \section{section}
+  \subsection{subsection }
+  \lipsum[1-10]
+  \chapterimage{head2.png}
+  \chapter{Second Chapter}
+  \lipsum[1-15]
+  
+  \input{BookEnd}
+\end{document}

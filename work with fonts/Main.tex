@@ -1,0 +1,39 @@
+\documentclass[]{article}
+
+
+\usepackage{fontspec}
+
+
+\newfontfamily\Acmefont{Acme-Regular}[
+        Path = fonts/Acme/,
+        Extension =.ttf
+]
+\newfontfamily\fancyfont{GreatVibes-Regular}[
+        Path = fonts/Great_Vibes/,
+        Extension =.ttf
+]
+\newfontfamily\handfont{PlaypenSans-ExtraBold}[
+        Path = fonts/Playpen_Sans/,
+        Extension =.ttf
+]
+\newfontfamily\Garamondfont{EBGaramond-Medium}[
+        Path = fonts/Garamond/,
+        Extension =.ttf
+]
+
+% you can download new fonts from google fonts
+\begin{document}
+
+{\fontsize{20pt}{0}
+    \selectfont\Acmefont
+    Acme font : hello there
+    
+    \selectfont\handfont 
+    PlaypenSans font : hello there
+
+    \selectfont\fancyfont 
+    GreatVibes font : hello there
+    
+}
+
+\end{document}

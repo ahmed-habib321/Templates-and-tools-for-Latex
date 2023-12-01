@@ -1,0 +1,71 @@
+% Chapter text styling
+\titlecontents{chapter}[1.25cm] % Indentation
+{\addvspace{5pt}\large\bfseries} % Spacing and font options for sections
+{\color{theme!70}\contentslabel[\Large\thecontentslabel]{1cm}\color{theme}} % section number
+{}  
+{\color{theme!70}\normalsize\bfseries\;\titlerule*[.5pc]{.}\;\thecontentspage} % Page number
+
+
+% section text styling
+\titlecontents{section}[1.75cm] % Indentation
+{\addvspace{1pt}}
+{\contentslabel[\thecontentslabel]{1cm}} % section number
+{}  
+{\;\titlerule*[.5pc]{.}\;\thecontentspage} % Page number
+
+% Subsection text styling
+\titlecontents{subsection}[2.25cm] % Indentation
+{\addvspace{1pt}\small} % Spacing and font options for subsections
+{\contentslabel[\thecontentslabel]{1cm}} % Subsection number
+{}
+{\;\titlerule*[.5pc]{.}\;\thecontentspage} % Page number
+[] 
+
+% Exclude subsubsection from table of contents
+\titlecontents{subsubsection}[2.25cm] % Indentation
+{\addvspace{1pt}\small} % Spacing and font options for subsections
+{\contentslabel[\thecontentslabel]{1.25cm}} % Subsection number
+{}
+{\;\titlerule*[.5pc]{.}\;\thecontentspage} % Page number
+[]  
+
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER HEADINGS
+%----------------------------------------------------------------------------------------
+\makeatletter
+\newcommand{\thechapterimage}{}
+\newcommand{\chapterimage}[1]{\renewcommand{\thechapterimage}{#1}}
+
+% Numbered chapters
+\def\thechapter{\arabic{chapter}}
+\def\@makechapterhead#1{
+{
+\sffamily
+\startcontents
+\AddToShipoutPicture*{\put(0,.6\paperheight){\includegraphics[width=\paperwidth,height=.4\paperheight]{\thechapterimage}}}
+\AddToShipoutPicture*{\put(.25\paperwidth,.65\paperheight){
+  \begin{tikzpicture}
+    \draw node [rounded corners=20pt,fill=theme!10!white,text opacity=1,draw=theme,draw opacity=1,line width=1.5pt,fill opacity=.6,inner sep=12pt]{\huge\sffamily\bfseries\textcolor{black}{\thechapter. #1\strut\makebox[15cm]{}}};
+  \end{tikzpicture}
+}}
+}
+\par
+\vspace*{250\p@}
+}
+
+% Unnumbered chapters (for content page)
+\def\@makeschapterhead#1{
+{
+\sffamily
+\AddToShipoutPicture*{\put(0,.6\paperheight){\includegraphics[width=\paperwidth,height=.4\paperheight]{\thechapterimage}}}
+\AddToShipoutPicture*{\put(.25\paperwidth,.65\paperheight){
+  \begin{tikzpicture}
+    \draw node [rounded corners=20pt,fill=theme!10!white,text opacity=1,draw=theme,draw opacity=1,line width=1.5pt,fill opacity=.6,inner sep=12pt]{\huge\sffamily\bfseries\textcolor{black}{#1\strut\makebox[15cm]{}}};
+  \end{tikzpicture}
+}}
+}
+\par
+\vspace*{250\p@}
+}
+\makeatother

@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+
+\setmainlanguage{arabic}
+\setotherlanguages{english}
+
+\newfontfamily\arabicfont[Script=Arabic,Scale=1.1]{Amiri}
+
+\begin{document}
+
+السلام عليكم ورحمة الله وبركاته
+
+\selectlanguage{english}
+
+Back to English text.
+
+\selectlanguage{arabic}
+\begin{enumerate}
+    \item اهلا 
+    \begin{itemize}
+        \item الاسم : 
+    \end{itemize} 
+\end{enumerate}
+
+\begin{tabular}{|r | r|}
+    \hline
+    الاسم   & احمد محمد حبيب      \\
+    \hline
+    القسم   & الرياضيات و علوم الحاسب      \\
+    \hline
+    المستوي   & الرابع      \\
+    \hline
+\end{tabular}
+
+\end{document}
