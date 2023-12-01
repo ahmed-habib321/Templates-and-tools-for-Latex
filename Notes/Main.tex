@@ -1,0 +1,33 @@
+\documentclass[]{article}
+
+
+\input{../MyTools}
+\newgeometry{margin=.9in}
+
+\definecolor{cover}{RGB}{51,215,213}
+
+\newfontfamily\Acmefont{Acme-Regular}[
+        Path = fonts/Acme/,
+        Extension =.ttf
+]
+\newfontfamily\fancyfont{GreatVibes-Regular}[
+        Path = fonts/Great_Vibes/,
+        Extension =.ttf
+]
+\newfontfamily\handfont{PlaypenSans-ExtraBold}[
+        Path = fonts/Playpen_Sans/,
+        Extension =.ttf
+]
+\newfontfamily\Garamondfont{EBGaramond-Medium}[
+        Path = fonts/Garamond/,
+        Extension =.ttf
+]
+
+\begin{document}
+
+%\include{SoloLecStarter}   %When making solo lecture remove the comment
+\include{NotesStarter}      %The pages in the front
+\include{NotesBody}         %The content of the book
+
+\include{NotesEnd}          %The pages in the End
+\end{document}
