@@ -8,47 +8,46 @@
 \usepackage{enumitem} % Customize lists
 \setlist{nolistsep} % Reduce spacing between bullet points and numbered lists
 \usepackage[hidelinks]{hyperref} % make a link between the titles in the table of content and the page of it
-\usepackage[a4paper, margin=1 in]{geometry}
-\usepackage{blindtext}
-\usepackage[skip=9pt plus1pt, indent=0pt]{parskip}
-\usepackage{wrapfig}
-\usepackage{caption2}
+\usepackage[a4paper, margin=1 in]{geometry} %Customize the page geometry
+\usepackage{blindtext} % add continous dummy text 
+\usepackage[skip=9pt plus1pt, indent=0pt]{parskip} % to control the spacing between paragraphs. 
+\usepackage{wrapfig}  % to warp text around images 
+\usepackage{caption2} % upgrade for caption package
 \usepackage{flexisym}
-\usepackage{comment}
+\usepackage{comment} % allow to add comment
 \usepackage[export]{adjustbox}
 \usepackage{tcolorbox} % make the enrichment box 
-\usepackage{mathrsfs}
+\usepackage{mathrsfs} % weird math font
 \usepackage{siunitx}	% allow to write the units in math mode
 \usepackage{eso-pic} % Required for specifying an image background in the title page
-\usepackage{mwe}
+\usepackage{mwe} % gives test examples to try like \includegraphics{example-image}
 \usepackage{booktabs} % Required for nicer horizontal rules in tables
-\usepackage{lmodern}
-\usepackage[T1]{fontenc}
-\usepackage{xcolor}
-\usepackage{physics}
-\usepackage{changepage}
-\usepackage{lipsum}   % to add dummy text
+\usepackage{lmodern} % modern latin font 
+\usepackage[T1]{fontenc} % font tools
+\usepackage{xcolor} %allow RGB colors
+\usepackage{changepage} % Margin adjustment and detection of odd/even pages.
+\usepackage{lipsum}   % add dummy text in paragraph
 \usepackage{avant} % Use the Avantgarde font for headings
-\usepackage{fancyhdr}
-\usepackage{fontspec}
-\usetikzlibrary{patterns}
+\usepackage{fancyhdr} % to make the numbering in top 
+\usepackage{fontspec} % font tools (need xelatex compiler)
+\usepackage{physics} % some short cuts
+\usetikzlibrary{patterns} % allow to draw patterns in tiks
 
 \tikzset{
   oblique lines/.style={
     pattern = north east lines,
     pattern color = red,
   }
-}
+} % oblique lines in tikz (///)
 \hyphenpenalty=10000
-\definecolor{Solution}{RGB}{0, 135, 189} 
-\allowdisplaybreaks
-\usetikzlibrary{positioning,calc}
-\usetikzlibrary{patterns}
+
+\allowdisplaybreaks % LaTeX tries to keep environments together on a single page this command stop this
+\usetikzlibrary{positioning,calc} % to load additional TikZ libraries
 \newcommand*\circled[1]{\tikz[baseline=(char.base)]{
-            \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
-\newcommand{\dquad}{\quad\quad}
-\newcommand{\tquad}{\quad\quad\quad}
-\newcommand{\fquad}{\quad\quad\quad\quad}
+            \node[shape=circle,draw,inner sep=2pt] (char) {#1};}} % make a circle like in equation
+\newcommand{\dquad}{\quad\quad} % 2 spaces
+\newcommand{\tquad}{\quad\quad\quad} % 3 spaces
+\newcommand{\fquad}{\quad\quad\quad\quad} % 4 spaces
 
 
 
@@ -66,7 +65,7 @@
 %\definecolor{theme}{RGB}{45, 57, 89}
 %\definecolor{theme}{RGB}{45, 57, 89}
 %\definecolor{theme}{RGB}{45, 57, 89}
-
+%\definecolor{Solution}{RGB}{0, 135, 189} 
 %----------------------------------------------------------------------------------------
 %	MAIN TABLE OF CONTENTS
 %----------------------------------------------------------------------------------------
@@ -280,9 +279,6 @@ innerbottommargin=5pt]{cBox}
 \newenvironment{example}{\begin{exampleT}}{\hfill{\tiny\ensuremath{\blacksquare}}\end{exampleT}}		
 \newenvironment{corollary}{\begin{cBox}\begin{corollaryT}}{\end{corollaryT}\end{cBox}}	
 \newenvironment{enrichment*}[1]{\begin{tcolorbox}[colback=theme!5!white,colframe=theme!50!black,title=#1]}{\end{tcolorbox}}
-
-
-
 \newenvironment{enrichment}[5]{
     \def\Title{#1}    
     \def\imagepath{#2}

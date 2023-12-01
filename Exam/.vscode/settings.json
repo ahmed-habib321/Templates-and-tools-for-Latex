@@ -1,38 +1,39 @@
 {
-    "editor.fontSize": 20,
-    
-
     "latex-workshop.latex.tools": [
         {
-          "name": "latexmk",
-          "command": "latexmk",
-          "args": [
-            "-synctex=1",
-            "-interaction=nonstopmode",
-            "-file-line-error",
-            "--shell-escape",
-            "-pdf",
-            "%DOC%"
-          ]
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ]
         },
         {
-          "name": "pdflatex",
-          "command": "pdflatex",
-          "args": [
-            "--shell-escape",
-            "-synctex=1",
-            "-interaction=nonstopmode",
-            "-file-line-error",
-            "%DOC%"
-          ]
-        },
-        {
-          "name": "bibtex",
-          "command": "bibtex",
-          "args": [
-            "%DOCFILE%"
-          ],
-          "env": {}
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-pdf",
+                "%DOC%"
+            ]
         }
-      ],
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "xelatex",
+            "tools": [
+                "xelatex"
+            ]
+        },
+        {
+            "name": "latexmk",
+            "tools": [
+                "latexmk"
+            ]
+        }
+    ],
 }

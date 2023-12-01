@@ -1,10 +1,13 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.5) (preloaded format=xelatex 2023.10.20)  1 DEC 2023 15:00
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.5) (preloaded format=xelatex 2023.10.20)  1 DEC 2023 22:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"d:/Bigly Downloads/VS code/MY Projects/Templates/Notes/Main.tex"
-(d:/Bigly Downloads/VS code/MY Projects/Templates/Notes/Main.tex
+**"d:/Bigly Downloads/VS code/MY Projects/Templates-and-tools-for-Latex/Notes/M
+ain.tex"
+
+(d:/Bigly Downloads/VS code/MY Projects/Templates-and-tools-for-Latex/Notes/Mai
+n.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-11>
 (C:\Users\Ahmed\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -981,13 +984,6 @@ LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
 (C:\Users\Ahmed\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ))
-(C:\Users\Ahmed\AppData\Local\Programs\MiKTeX\tex/latex/physics\physics.sty
-Package: physics 
-
-(C:\Users\Ahmed\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
-e.sty
-Package: xparse 2023-02-02 L3 Experimental document command parser
-))
 (C:\Users\Ahmed\AppData\Local\Programs\MiKTeX\tex/latex/changepage\changepage.s
 ty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
@@ -1011,6 +1007,10 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@orf=\skip70
 )
 (C:\Users\Ahmed\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.sty
+(C:\Users\Ahmed\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
+Package: xparse 2023-02-02 L3 Experimental document command parser
+)
 Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
 
 (C:\Users\Ahmed\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec-xetex
@@ -1035,6 +1035,8 @@ X
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
 (C:\Users\Ahmed\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.cfg))
+) (C:\Users\Ahmed\AppData\Local\Programs\MiKTeX\tex/latex/physics\physics.sty
+Package: physics 
 )
 (C:\Users\Ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarypatterns.code.tex
@@ -1352,16 +1354,79 @@ nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `english'. on input line 26.
+\openout2 = `SoloLecStarter.aux'.
+
+ (SoloLecStarter.tex
+LaTeX Font Info:    Calculating math sizes for size <50> on input line 8.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 8
+.
+
+(C:\Users\Ahmed\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 8
+.
+
+(C:\Users\Ahmed\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+8.
+
+(C:\Users\Ahmed\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+8.
+
+(C:\Users\Ahmed\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <50> on input line 8.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <34.99985> on input line 8.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <25> on input line 8.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 8.
+
+(C:\Users\Ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
+
+(C:\Users\Ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 8.
+
+
+(C:\Users\Ahmed\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <50> not available
+(Font)              size <24.88> substituted on input line 8.
+
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <34.99985> not available
+(Font)              size <24.88> substituted on input line 8.
+
+[1
+
+
+
+])
 \openout2 = `NotesStarter.aux'.
 
  (NotesStarter.tex
 File: Blank.jpg Graphic file (type bmp)
 <Blank.jpg>
- [1
+ [2
 
 
 
-] [2]
+] [3]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: a4paper
@@ -1410,7 +1475,8 @@ File: collage logo.png Graphic file (type bmp)
  (NotesBody.tex)
 \openout2 = `NotesEnd.aux'.
 
- (NotesEnd.tex
+
+(NotesEnd.tex
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: a4paper
@@ -1514,21 +1580,27 @@ File: Blank.jpg Graphic file (type bmp)
 
 
 
-]) (Main.aux (NotesStarter.aux) (NotesBody.aux) (NotesEnd.aux))
+]) (Main.aux (SoloLecStarter.aux) (NotesStarter.aux) (NotesBody.aux)
+(NotesEnd.aux))
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-11>
  ***********
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 25.12pt have occurred.
+
 Package rerunfilecheck Info: File `Main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 34668 strings out of 410633
- 734056 string characters out of 5792050
+ 34808 strings out of 410633
+ 737277 string characters out of 5792050
  1916879 words of memory out of 5000000
- 55216 multiletter control sequences out of 15000+600000
- 561691 words of font info for 72 fonts, out of 8000000 for 9000
+ 55322 multiletter control sequences out of 15000+600000
+ 583014 words of font info for 92 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,7n,92p,1250b,912s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,7n,92p,1270b,912s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Main.pdf (5 pages).
+Output written on Main.pdf (6 pages).

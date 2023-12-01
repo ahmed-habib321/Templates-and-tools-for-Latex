@@ -1,10 +1,13 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.5) (preloaded format=xelatex 2023.10.20)  1 DEC 2023 15:28
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.5) (preloaded format=xelatex 2023.10.20)  1 DEC 2023 22:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"d:/Bigly Downloads/VS code/MY Projects/Templates/Arabic pdfs/main.tex"
-(d:/Bigly Downloads/VS code/MY Projects/Templates/Arabic pdfs/main.tex
+**"d:/Bigly Downloads/VS code/MY Projects/Templates-and-tools-for-Latex/Arabic 
+pdfs/main.tex"
+
+(d:/Bigly Downloads/VS code/MY Projects/Templates-and-tools-for-Latex/Arabic pd
+fs/main.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-11>
 (C:\Users\Ahmed\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -755,11 +758,11 @@ L3 programming layer <2023-08-11>
  ) 
 Here is how much of TeX's memory you used:
  6604 strings out of 410633
- 170785 string characters out of 5792050
+ 170845 string characters out of 5792050
  1911879 words of memory out of 5000000
  27609 multiletter control sequences out of 15000+600000
  558189 words of font info for 51 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 83i,8n,100p,1036b,235s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,8n,100p,1056b,235s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on main.pdf (1 page).
