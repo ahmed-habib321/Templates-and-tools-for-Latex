@@ -1,6 +1,6 @@
 \documentclass[]{article}
 
-
+\usepackage[a4paper, margin=0in]{geometry}
 \usepackage{fontspec}
 
 
@@ -20,20 +20,37 @@
         Path = fonts/Garamond/,
         Extension =.ttf
 ]
+\newfontfamily\Queenfont{QUEENS__}[
+        Path = fonts/queens-park/,
+        Extension =.ttf
+]
+\newfontfamily\jellykingfont{jellykakingshat}[
+        Path = fonts/Jellyka King's Hat/,
+        Extension =.ttf
+]
 
 % you can download new fonts from google fonts
 \begin{document}
 
-{\fontsize{20pt}{0}
+{\fontsize{50pt}{0}
     \selectfont\Acmefont
     Acme font : hello there
-    
+    \\\\
     \selectfont\handfont 
     PlaypenSans font : hello there
-
+    \\\\
     \selectfont\fancyfont 
     GreatVibes font : hello there
-    
+    \\\\
+    \selectfont\Queenfont 
+    Queens Park font : hello there
+    \\\\
+    Stochastic differential equations are a powerful tool
+    \\\\
+    \selectfont\jellykingfont 
+    Jellyka King's Hat font : hello there
+    \\\\
+    Ahmed Mohamed Abd-Elsalam Habib
 }
 
 \end{document}
